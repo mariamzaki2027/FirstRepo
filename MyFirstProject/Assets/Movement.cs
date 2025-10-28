@@ -41,7 +41,11 @@ public class Movement : MonoBehaviour
 
             }
 
-            if (Input.GetKey(R))
+            
+
+        }
+
+if (Input.GetKey(R))
             {
                 GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 
@@ -52,10 +56,6 @@ public class Movement : MonoBehaviour
 
                 }
             }
-
-        }
-
-
 
 
 
